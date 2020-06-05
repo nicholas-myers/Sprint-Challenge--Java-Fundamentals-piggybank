@@ -15,13 +15,14 @@ public class Main {
       piggyBank.add(new Dime(7));
       piggyBank.add(new Dollar());
       piggyBank.add(new Penny(10));
-      System.out.println(piggyBank);
+      // System.out.println(piggyBank);
       System.out.println();
       double bankTotal = 0;
       for (Money m : piggyBank) {
-         bankTotal =+ m.getValue();
+         bankTotal += m.getValue();
+         System.out.println(m);
       }
-      System.out.println("The piggy bank holds $" + bankTotal);
+      System.out.printf("The piggy bank holds $%.2f %n", bankTotal);
    }
 
 }
