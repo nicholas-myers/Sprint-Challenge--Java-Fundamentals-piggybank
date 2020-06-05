@@ -33,6 +33,6 @@ public class Nickel extends Money {
 
    @Override
    public String toString() {
-      return amount + " " + name;
+      return amount > 1 ? amount + " " + name + "s" : amount + " " + name;
    }
 }
