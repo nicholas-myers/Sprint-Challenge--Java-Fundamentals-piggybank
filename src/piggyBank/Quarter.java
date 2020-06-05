@@ -1,4 +1,4 @@
-package com.lambdaschool.piggybank;
+package piggyBank;
 
 public class Quarter extends Money
 {
