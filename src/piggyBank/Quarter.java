@@ -6,6 +6,11 @@ public class Quarter extends Money
    private String name = "Quarter";
    public Quarter(int amount) {
       super(amount);
+      this.name = name;
+      this.value = value * amount;
+   }
+   public Quarter() {
+      this.name = name;
       this.value = value * amount;
    }
 
@@ -27,6 +32,6 @@ public class Quarter extends Money
    @Override
    public String toString()
    {
-      return name + " Amount: " + amount;
+      return amount + " " + name;
    }
 }

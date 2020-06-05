@@ -7,6 +7,12 @@ public class Penny extends Money
    public Penny(int amount)
    {
       super(amount);
+      this.name = name;
+      this.value = value * amount;
+   }
+   public Penny()
+   {
+      this.name = name;
       this.value = value * amount;
    }
 
@@ -28,6 +34,6 @@ public class Penny extends Money
    @Override
    public String toString()
    {
-      return name + " Amount: " + amount;
+      return amount + " " + name;
    }
 }

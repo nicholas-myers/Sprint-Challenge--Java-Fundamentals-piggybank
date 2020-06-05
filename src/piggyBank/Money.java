@@ -12,7 +12,7 @@ abstract class Money
       this.amount = amount;
    }
 
-
+   abstract double getValue();
 
    int getAmount()
    {

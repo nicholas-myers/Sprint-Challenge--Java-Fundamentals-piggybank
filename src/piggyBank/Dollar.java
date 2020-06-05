@@ -6,7 +6,11 @@ public class Dollar extends Money
    private String name = "Dollar";
    public Dollar(int amount) {
       super(amount);
-      this.value = value;
+      this.value = value * amount;
+   }
+   public Dollar() {
+      this.name = name;
+      this.value = value * amount;
    }
 
    public double getValue() {
@@ -27,6 +31,6 @@ public class Dollar extends Money
    @Override
    public String toString()
    {
-      return name + " Amount: " + amount;
+      return "$" + amount;
    }
 }

@@ -72,14 +72,14 @@ an interface uses `implements` on the classes that use its methods, a method tha
 The main program will look something like this pseudocode (remember pseudocode is not meant to be syntactically correct but explain the algorithm):
 
 - [x] Create collection
-- [ ] piggyBank.add(new Quarter())
-- [ ] piggyBank.add(new Dime())
-- [ ] piggyBank.add(new Dollar(5))
-- [ ] piggyBank.add(new Nickel(3))
-- [ ] piggyBank.add(new Dime(7))
-- [ ] piggyBank.add(new Dollar())
-- [ ] piggyBank.add(new Penny(10))
-- [ ] Print the contents of the Piggy Bank
+- [x] piggyBank.add(new Quarter())
+- [x] piggyBank.add(new Dime())
+- [x] piggyBank.add(new Dollar(5))
+- [x] piggyBank.add(new Nickel(3))
+- [x] piggyBank.add(new Dime(7))
+- [x] piggyBank.add(new Dollar())
+- [x] piggyBank.add(new Penny(10))
+- [x] Print the contents of the Piggy Bank
   - on the console should appear  
     `1 Quarter`  
     `1 Dime`  
