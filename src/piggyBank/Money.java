@@ -6,7 +6,7 @@ abstract class Money
 
    public Money()
    {
-      amount = 1;
+      this.amount = 1;
    }
    public Money(int amount) {
       this.amount = amount;

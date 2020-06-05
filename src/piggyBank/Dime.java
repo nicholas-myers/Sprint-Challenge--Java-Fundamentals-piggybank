@@ -9,6 +9,10 @@ public class Dime extends Money
       this.name = name;
       this.value = value * amount;
    }
+   public Dime() {
+      this.name = name;
+      this.value = value * amount;
+   }
 
    public double getValue() {
       return value;

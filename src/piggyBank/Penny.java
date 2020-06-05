@@ -3,7 +3,7 @@ package piggyBank;
 public class Penny extends Money
 {
    private double value = 0.01;
-
+   private String name = "Penny";
    public Penny(int amount)
    {
       super(amount);
@@ -28,6 +28,6 @@ public class Penny extends Money
    @Override
    public String toString()
    {
-      return amount + " " + name;
+      return name + " Amount: " + amount;
    }
 }
