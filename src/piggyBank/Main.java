@@ -19,7 +19,7 @@ public class Main {
       System.out.println();
       double bankTotal = 0;
       for (Money m : piggyBank) {
-         bankTotal =+ m.getValue;
+         bankTotal =+ m.getValue();
       }
       System.out.println("The piggy bank holds $" + bankTotal);
    }
