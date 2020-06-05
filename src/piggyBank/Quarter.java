@@ -2,21 +2,15 @@ package piggyBank;
 
 public class Quarter extends Money
 {
-   private double value = 0.25;
    public Quarter(int amount) {
       super(amount);
       this.name = "Quarter";
-      this.value = value * amount;
+      this.value = 0.25 * amount;
    }
    public Quarter() {
       this.name = "Quarter";
-      this.value = value * amount;
+      this.value = 0.25 * amount;
    }
-
-   public double getValue() {
-      return value;
-   }
-
 
    @Override
    public String toString()

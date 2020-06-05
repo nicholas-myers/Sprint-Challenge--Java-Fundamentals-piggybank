@@ -22,6 +22,7 @@ public class Main {
          bankTotal += m.getValue();
          System.out.println(m);
       }
+      System.out.println();
       System.out.printf("The piggy bank holds $%.2f %n", bankTotal);
    }
 
