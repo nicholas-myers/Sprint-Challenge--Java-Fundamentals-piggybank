@@ -28,6 +28,6 @@ public class Dime extends Money
    @Override
    public String toString()
    {
-      return name + " Amount: " + amount;
+      return amount + " " + name;
    }
 }

@@ -25,26 +25,38 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Describe why Java is called an object oriented, strongly typed language.
+
+  It is object oriented in that it's based around creating class objects with key value pairs and methods. It is Strongly typed because the developer is required to assign the type to each value, ex: int String, bool etc.
+
 2. Give examples of Java Collections explaining the use and differences between them.
+
+  Collections are arrays of information using List or HashMap. List assigns order automatically with normal array index. HashMaps the developer assigns order and can assign other types to the key such String. 
+
 3. What is recursion and how does it differ from regular looping?
+
+  recursive is a function/method that calls itself. it differs from a loop in that everytime it calls itself it is added to the stack in memory, a loop can be more efficient because it uses a set amount of memory. 
+
 4. Explain the differences between Abstract Classes and Interfaces including scenarios of when to use them.
+
+abstract classes create values and methods can be passed to children classes using `extends` key word.
+an interface uses `implements` on the classes that use its methods, a method that can be passed to other classes
 
 ## Instructions
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Create the proper directory structure for developing a Java Application
-- [ ] Push commits: `git push origin <firstName-lastName>`
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [x] Create a forked copy of this project
+- [x] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create the proper directory structure for developing a Java Application
+- [x] Push commits: `git push origin <firstName-lastName>`
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
-- [ ] Create a collection (Array, ArrayList, or HashMap) to represent the piggy bank. The elements in the collection are pockets of money.
+- [x] Create a collection (Array, ArrayList, or HashMap) to represent the piggy bank. The elements in the collection are pockets of money.
   - Each element in the collection contains
     - The number of coins in this group
     - The face value of the coins in the group
@@ -59,7 +71,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 The main program will look something like this pseudocode (remember pseudocode is not meant to be syntactically correct but explain the algorithm):
 
-- [ ] Create collection
+- [x] Create collection
 - [ ] piggyBank.add(new Quarter())
 - [ ] piggyBank.add(new Dime())
 - [ ] piggyBank.add(new Dollar(5))
