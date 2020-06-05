@@ -2,7 +2,7 @@ package piggyBank;
 
 abstract class Money
 {
-   private int amount;
+   protected int amount;
 
    public Money()
    {
@@ -12,8 +12,12 @@ abstract class Money
       this.amount = amount;
    }
 
+
+
    int getAmount()
    {
       return amount;
    }
+
+
 }
