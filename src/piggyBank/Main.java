@@ -17,9 +17,11 @@ public class Main {
       piggyBank.add(new Penny(10));
       System.out.println(piggyBank);
       System.out.println();
+      double bankTotal = 0;
       for (Money m : piggyBank) {
-         System.out.println(m.getValue());
+         bankTotal =+ m.getValue;
       }
+      System.out.println("The piggy bank holds $" + bankTotal);
    }
 
 }
