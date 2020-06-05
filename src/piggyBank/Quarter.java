@@ -3,14 +3,13 @@ package piggyBank;
 public class Quarter extends Money
 {
    private double value = 0.25;
-   private String name = "Quarter";
    public Quarter(int amount) {
       super(amount);
-      this.name = name;
+      this.name = "Quarter";
       this.value = value * amount;
    }
    public Quarter() {
-      this.name = name;
+      this.name = "Quarter";
       this.value = value * amount;
    }
 
@@ -18,16 +17,6 @@ public class Quarter extends Money
       return value;
    }
 
-   public void setValue(double value) {
-      this.value = value;
-   }
-   public String getName() {
-      return name;
-   }
-
-   public void setName(String name) {
-      this.name = name;
-   }
 
    @Override
    public String toString()

@@ -3,9 +3,10 @@ package piggyBank;
 abstract class Money
 {
    protected int amount;
-
+   protected String name;
    public Money()
    {
+      this.name = name;
       this.amount = 1;
    }
    public Money(int amount) {
@@ -14,10 +15,9 @@ abstract class Money
 
    abstract double getValue();
 
-   int getAmount()
+   public String getName()
    {
-      return amount;
+      return name;
    }
-
 
 }

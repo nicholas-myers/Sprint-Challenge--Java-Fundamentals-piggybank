@@ -62,12 +62,12 @@ an interface uses `implements` on the classes that use its methods, a method tha
     - The face value of the coins in the group
     - How to print the total value of this group which is face value * number of coins in the group
   - The elements in the collection should be an abstract class of money. The abstract class of money should have child classes for each of the following types of money
-    - A Dollar worth $1.00
-    - A Quarter worth $0.25
-    - A Dime worth $0.10
-    - A Nickel worth $0.05
-    - A Penny worth $0.01
-  - When creating a money object, you can optionally give the number of coins being added. If no number is given, the default is 1 coin being added to the piggy bank.  
+    x- A Dollar worth $1.00
+    x- A Quarter worth $0.25
+    x- A Dime worth $0.10
+    x- A Nickel worth $0.05
+    x- A Penny worth $0.01
+  x- When creating a money object, you can optionally give the number of coins being added. If no number is given, the default is 1 coin being added to the piggy bank.  
 
 The main program will look something like this pseudocode (remember pseudocode is not meant to be syntactically correct but explain the algorithm):
 
